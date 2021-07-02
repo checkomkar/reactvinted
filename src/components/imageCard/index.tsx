@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./imageCard.scss";
-function ImageCard(props) {
+function ImageCard(props:any) {
 	//console.log(props);
 	const { farm, id, secret, server, title, owner, favorite } = props.item;
 	const [isFavorite, setIsFavorite] = useState(favorite);
