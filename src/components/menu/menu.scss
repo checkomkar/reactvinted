@@ -1,0 +1,22 @@
+.menu {
+	width: 100%;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	text-align: left;
+	span {
+		display: inline-block;
+	}
+	span.logo {
+		font-size: 22px;
+		margin-left: 16px;
+		box-sizing: border-box;
+		position: relative;
+		top: -15px;
+	}
+	span.hamburger {
+		img {
+			width: 44px;
+		}
+	}
+}
