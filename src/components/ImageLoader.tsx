@@ -64,7 +64,7 @@ const ImageLoader = () => {
 
 		const url = `https://www.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=${APIKeys.KEY}&per_page=20&page=${req.page}&format=json&nojsoncallback=1`;
 
-		//Fetch was not working due to CORS issue
+		//We can also use Fetch or Axios
 		//Its better to use a library like Axios, as the code will look clean
         // fetch(url).then((data:any) => {
         //     console.log("from fetch", data.body)
